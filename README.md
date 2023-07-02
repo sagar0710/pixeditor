@@ -1,17 +1,13 @@
-# Slate - Pixel Art Editor
+# Pixel Editor
 
-<p align="center">
-  <img src="https://github.com/mitchcurtis/slate/blob/release/app/images/logo/slate-icon-web.svg" />
-</p>
-
-Slate is a bitmap editor available for Linux, Windows and Mac. With Slate, you can:
+This is a bitmap editor available for Linux, Windows and Mac. You can:
 
 - Edit images directly
 - Use layers
 - Create seamless 2D tilesets
 - Preview sprite sheet animations
 
-Slate was built for pixel art, and its goal is to simplify the creation of sprites and tilesets by offering a user-friendly, customisable interface.
+This was built for pixel art, and its goal is to simplify the creation of sprites and tilesets by offering a user-friendly, customisable interface.
 
 <!--
     Note: generate the table of contents for each file with the following commands:
@@ -43,45 +39,18 @@ Slate was built for pixel art, and its goal is to simplify the creation of sprit
 
 ### Screenshots
 
-![Screenshot of Slate on Linux](https://github.com/mitchcurtis/slate/blob/release/doc/images/slate-v0.1.0-tileset-linux.png "Screenshot of Slate on Linux")
+![Screenshot on Linux](https://github.com/sagar0710/pixeditor/blob/doc/images/slate-v0.1.0-tileset-linux.png "Screenshot on Linux")
 
-![Screenshot of Slate v0.4.0 on Mac](https://github.com/mitchcurtis/slate/blob/release/doc/images/slate-v0.4.0-layers-mac.png "Screenshot of Slate v0.4.0 on Mac")
+![Screenshot on Mac](https://github.com/sagar0710/pixeditor/blob/release/doc/images/slate-v0.4.0-layers-mac.png "Screenshot on Mac")
 
-![Screenshot of Slate v0.4.0 on Mac](https://github.com/mitchcurtis/slate/blob/release/doc/images/slate-v0.4.0-animation-mac.png "Screenshot of Slate v0.4.0 on Mac")
-
-### Downloads ###
-
-<!-- ![Linux](https://github.com/mitchcurtis/slate/blob/release/doc/images/os-icon-tux.svg "Linux") -->
-<img src="https://github.com/mitchcurtis/slate/blob/release/doc/images/os-icon-tux.svg" width="16" height="16"> - [Slate 0.9.0 for Linux](https://github.com/mitchcurtis/slate/releases/download/v0.9.0/Slate-v0.9.0-linux.tar.xz)
-
-<!-- ![Mac](https://github.com/mitchcurtis/slate/blob/release/doc/images/os-icon-mac.svg "Mac") -->
-<img src="https://github.com/mitchcurtis/slate/blob/release/doc/images/os-icon-mac.svg" width="16" height="16"> - [Slate 0.9.0 for Mac](https://github.com/mitchcurtis/slate/releases/download/v0.9.0/Slate-v0.9.0-mac.dmg)
-
-<!-- ![Windows](https://github.com/mitchcurtis/slate/blob/release/doc/images/os-icon-win.svg "Windows") -->
-<img src="https://github.com/mitchcurtis/slate/blob/release/doc/images/os-icon-win.svg" width="16" height="16"> - [Slate 0.9.0 for Windows](https://github.com/mitchcurtis/slate/releases/download/v0.9.0/Slate-v0.9.0-windows.zip)
-
-See the [releases](https://github.com/mitchcurtis/slate/releases) page for the full list of available downloads.
-
-Note that the Linux binaries are built on Ubuntu 18.04.3 and may not work with other distributions. If you encounter issues running Slate on Linux, try [building from source](#building-from-source).
+![Screenshot on Mac](https://github.com/sagar0710/pixeditor/blob/release/doc/images/slate-v0.4.0-animation-mac.png "Screenshot on Mac")
 
 ### Installing ###
 
-All Slate builds are portable, meaning that no installation is necessary. On Windows, however, it may be necessary to run the vc_redist.x64.exe file that comes with the download in order to install certain Microsoft C++ libraries if you've never installed any applications that require this prior to running Slate.
+All builds are portable, meaning that no installation is necessary. On Windows, however, it may be necessary to run the vc_redist.x64.exe file that comes with the download in order to install certain Microsoft C++ libraries if you've never installed any applications that require this prior to running Slate.
 
 ### Documentation ###
-- [Overview](https://github.com/mitchcurtis/slate/blob/release/doc/overview.md)
-
-### Discussion ###
-
-Join Slate's Discord server for discussion: https://discord.gg/ZtAAg5D
-
-It's fine to ask questions here on GitHub as well - just [create an issue](https://github.com/mitchcurtis/slate/issues/new) and I will label it accordingly.
-
-### Donations ###
-
-If you like Slate, feel free to stop by the Discord server and let me know. I'm always excited to know that people are using it.
-
-You can also say thank you by donating via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LLLVPKU2JW9P8&source=url) or [itch.io](https://mitchcurtis.itch.io/slate).
+- [Overview](https://github.com/sagar0710/pixeditor/blob/release/doc/overview.md)
 
 ## Building From Source ##
 
@@ -89,25 +58,13 @@ You can also say thank you by donating via [PayPal](https://www.paypal.com/cgi-b
 
 * Qt 6.5
 
-Note that the dependencies above are for the current branch that you are viewing, and GitHub shows the master branch by default. If you want to build the latest stable release, see https://github.com/mitchcurtis/slate/tree/release#dependencies.
-
-### Cloning ###
-
-`master` is the branch where development is done, and `release` is the stable branch where releases are made from. I also [tag](https://github.com/mitchcurtis/slate/tags) releases.
-
-Initialise the submodules after cloning:
-
-    git submodule update --init
-
-### Building ###
-
-Slate can be built with Qbs or CMake.
+Note that the dependencies above are for the current branch that you are viewing, and GitHub shows the master branch by default. If you want to build the latest stable release, see https://github.comsagar0710/pixeditor/tree/release#dependencies.
 
 #### Qt Creator ####
 
 It's recommended to build using Qt Creator for convenience.
 
-Open [slate.qbs](https://github.com/mitchcurtis/slate/blob/release/slate.qbs) or [CMakeLists.txt](https://github.com/mitchcurtis/slate/blob/master/CMakeLists.txt) in Qt Creator, configure the project using a kit with a Qt version that meets the requirement listed in the [Dependencies](#dependencies) section, and then build it.
+Open [slate.qbs](https://github.com/sagar0710/pixeditor/blob/release/slate.qbs) or [CMakeLists.txt](https://github.com/sagar0710/pixeditor/blob/master/CMakeLists.txt) in Qt Creator, configure the project using a kit with a Qt version that meets the requirement listed in the [Dependencies](#dependencies) section, and then build it.
 
 #### Command Line ####
 
@@ -117,14 +74,14 @@ First, follow Qbs' [setup guide](http://doc.qt.io/qbs/setup.html). Once you've s
 
 In-source builds:
 
-    cd /path/to/slate-source-dir
+    cd /path/to/source-dir
     qbs
 
 Shadow builds:
 
-    mkdir slate-build
-    cd slate-build
-    qbs /path/to/slate-source-dir/slate.qbs
+    mkdir pixeditor-build
+    cd pixeditor-build
+    qbs /path/to/source-dir/slate.qbs
 
 For more information about building Qbs applications, see [this page](http://doc.qt.io/qbs/building-applications.html).
 
@@ -132,20 +89,20 @@ For more information about building Qbs applications, see [this page](http://doc
 
 In-source builds:
 
-    cd /path/to/slate-source-dir
+    cd /path/to/source-dir
     cmake .
     cmake --build .
 
 Shadow builds:
 
-    mkdir slate-build
-    cd slate-build
-    cmake /path/to/slate-source-dir
+    mkdir pixeditor-build
+    cd pixeditor-build
+    cmake /path/to/source-dir
     cmake --build .
 
 To run all test cases:
 
-    cd slate-build
+    cd pixeditor-build
     ctest
 
 ---
