@@ -39,18 +39,15 @@ This was built for pixel art, and its goal is to simplify the creation of sprite
 
 ### Screenshots
 
-![Screenshot on Linux](https://github.com/sagar0710/pixeditor/blob/doc/images/slate-v0.1.0-tileset-linux.png "Screenshot on Linux")
+![Screenshot on Linux](https://github.com/sagar0710/pixeditor/blob/main/doc/images/slate-v0.1.0-tileset-linux.png "Screenshot on Linux")
 
-![Screenshot on Mac](https://github.com/sagar0710/pixeditor/blob/release/doc/images/slate-v0.4.0-layers-mac.png "Screenshot on Mac")
+![Screenshot on Mac](https://github.com/sagar0710/pixeditor/blob/main/doc/images/slate-v0.4.0-layers-mac.png "Screenshot on Mac")
 
-![Screenshot on Mac](https://github.com/sagar0710/pixeditor/blob/release/doc/images/slate-v0.4.0-animation-mac.png "Screenshot on Mac")
+![Screenshot on Mac](https://github.com/sagar0710/pixeditor/blob/main/doc/images/slate-v0.4.0-animation-mac.png "Screenshot on Mac")
 
 ### Installing ###
 
 All builds are portable, meaning that no installation is necessary. On Windows, however, it may be necessary to run the vc_redist.x64.exe file that comes with the download in order to install certain Microsoft C++ libraries if you've never installed any applications that require this prior to running Slate.
-
-### Documentation ###
-- [Overview](https://github.com/sagar0710/pixeditor/blob/release/doc/overview.md)
 
 ## Building From Source ##
 
@@ -58,7 +55,7 @@ All builds are portable, meaning that no installation is necessary. On Windows, 
 
 * Qt 6.5
 
-Note that the dependencies above are for the current branch that you are viewing, and GitHub shows the master branch by default. If you want to build the latest stable release, see https://github.comsagar0710/pixeditor/tree/release#dependencies.
+Note that the dependencies above are for the current branch that you are viewing, and GitHub shows the master branch by default.
 
 #### Qt Creator ####
 
